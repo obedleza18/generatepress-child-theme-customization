@@ -1,0 +1,3873 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    http://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Thomas Usborne
+ Author URI:   http://edge22.com
+ Template:     generatepress
+ Version:      0.1
+ Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, light, white, dark, black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, yellow
+*/
+#frm_field_324_container, .chosen-results li {display: none;}
+.chosen-results .result-selected {display: block;}
+
+.elementor-element.elementor-element-ug5ojia .elementor-image img {
+    max-width: 400px;
+}
+.header-image {
+
+    width: 170px;
+
+}
+
+/*
+ *	Comienza la edición de estilo para NIDO de acuerdo a PSD
+ */
+
+.slideout-navigation {
+    left: auto !important;
+    right: 0;
+    transform: translateX(100%) !important;
+}
+
+.slide-opened .slideout-navigation {
+    transform: translateX(0px) !important;
+}
+
+.nido-logo img {
+    max-width: 370px;
+    margin-top: -20px;
+}
+
+.nido-login {
+    text-align: center !important;
+    max-width: 480px !important;
+    margin: auto !important;
+}
+
+.nido-login .tml {
+    width: 100%;
+    max-width: 100%;
+}
+
+.nido-login input {
+    max-width: 480px;
+    height: 57px;
+}
+
+.nido-input-username {
+    margin-bottom: 15px !important;
+}
+
+.nido-input-password {
+    margin-bottom: 7px !important;
+}
+
+.tml input {
+    margin: 0 0;
+}
+
+#loginform {
+    width: 100%;
+}
+
+body, button, input, select, textarea {
+    font-family: 'Roboto' !important;
+    font-size: 19px !important;
+    font-weight: 400 !important;
+}
+
+.nido-login-links a {
+    color: white;
+}
+
+.nido-login-links {
+    margin: auto;
+    max-width: 480px;
+}
+
+.nido-register-link {
+    float: left;
+}
+
+.nido-forgot-link {
+    float: right;
+}
+
+.nido-input-submit {
+    width: 230px !important;
+    height: 47px !important;
+    background-color: white !important;
+    color:  #fabb3e !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    line-height: 0;
+    margin-top: 25px !important;
+}
+
+.inside-article {
+    padding-top: 0px !important;
+}
+
+.page-id-585 nav {
+    display: none;
+}
+
+/*
+ *	Barra de Navegación y Página de Entradas y Salidas
+ */
+
+nav {
+    background-image: url('assets/icons/border-4.png');
+    background-repeat: round;
+}
+
+.main-navigation,
+.main-navigation ul {
+    background-color: rgba(255,255,255,0);
+}
+
+.current-menu-item:not(#menu-item-904):not(.menu-item-904) {
+    /*background-color: #eae7c4;*/
+    background: linear-gradient(#eae7c4, rgba(255,255,255,0));;
+}
+
+.main-navigation li {
+    height: 85px;
+}
+
+#menu-item-904 {
+    float: left;
+}
+
+.nido-nav-logo {
+    width: 180px;
+    vertical-align: middle;
+}
+
+.main-navigation .main-nav ul li a {
+    padding-top: 12px;
+}
+
+.nido-nav-img {
+    height: 55px;
+    vertical-align: middle;
+}
+
+#menu-item-898,
+#menu-item-903,
+#menu-item-902,
+#menu-item-917 {
+    width: 145px;
+}
+
+#menu-item-898 a,
+#menu-item-903 a,
+#menu-item-902 a,
+#menu-item-917 a {
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 15px;
+}
+
+#menu-item-898 .nido-navp,
+#menu-item-903 .nido-navp {
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+
+#menu-item-898 .nido-navpi,
+#menu-item-903 .nido-navpi {
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+#menu-item-898 .nido-navi,
+#menu-item-903 .nido-navi {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#menu-item-898 .alignleft,
+#menu-item-903 .alignleft {
+    margin-right: 0;
+}
+
+#menu-item-902 img,
+#menu-item-917 img {
+    margin-top: 5px;
+}
+
+#menu-item-830 a {
+    padding-top: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+nav .grid-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.nido-navigation-bar {
+    float: right;
+    padding-right: 70px;
+}
+
+#menu-menu {
+    padding-left: 20px;
+}
+
+header,
+.entry-title {
+    display: none;
+}
+
+.page-id-555 fieldset {
+    text-align: center;
+}
+
+.page-id-555 .frm_submit input {
+    background-image: url('assets/icons/nido-huevo-busqueda.png') !important;
+    background-size: 70px 85px !important;
+    width: 72px !important;
+    height: 86px !important;
+    background-repeat: no-repeat !important;
+    margin-left: 24px !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+#frm_field_655_container {
+    width: 415px;
+    display: inline-block;
+}
+
+#frm_field_655_container a,
+#frm_field_655_container select {
+    height: 55px;
+    background: white !important;
+    vertical-align: middle;
+    text-align: left;
+    font-style: normal;
+}
+
+#frm_field_655_container a b {
+    margin-top: 12px !important;
+}
+
+#frm_field_655_container a span {
+    margin-top: 9px;
+    font-family: "Roboto";
+    font-size: 19px;
+}
+
+#frm_field_655_container a abbr {
+    margin-top: 13px;
+    background-position-y: 3px;
+    border-bottom: none;
+    cursor: default;
+}
+
+.page-id-555 .frm_submit {
+    display: inline-block;
+}
+
+#nido-tod {
+    position: absolute;
+    right: 100px;
+    top: 90px;
+    background-color: lightblue;
+    padding: 0px 12px;
+    font-size: 85%;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.page-id-555 .entry-content {
+    margin: 6em 0;
+}
+
+.with_frm_style .chosen-container-active.chosen-with-drop .chosen-single div b {
+    background-position: -16px 2px;
+}
+
+.page-id-555 .frm_style_formidable-style.with_frm_style .frm_error_style {
+    max-width: 505px;
+    margin: auto;
+}
+
+.page-id-555 .frm_style_formidable-style.with_frm_style fieldset {
+    padding-top: 10px;
+}
+
+.page-id-555 .frm_error {
+    float: left;
+}
+
+/* Compatible con  Chrom 26.0, Explorer 10.0, Firefox 16.0, Safari 6.1, Opera 12.1 */
+body {
+    background: -webkit-radial-gradient(circle, #03c8dd 5%, rgba(3,200,221,0) 7px), -webkit-radial-gradient(circle, #03c8dd 5%, #03cedd 7px) 15px 15px;
+    background: -o-radial-gradient(circle, #03c8dd 5%, rgba(3,200,221,0) 7px), -o-radial-gradient(circle, #03c8dd 5%, #03cedd 7px) 15px 15px;
+    background: -moz-radial-gradient(circle, #03c8dd 5%, rgba(3,200,221,0) 7px), -moz-radial-gradient(circle, #03c8dd 5%, #03cedd 7px) 15px 15px;
+    background: radial-gradient(circle, #03c8dd 5%, rgba(3,200,221,0) 7px), radial-gradient(circle, #03c8dd 5%, #03cedd 7px) 15px 15px;
+    background-size: 30px 30px;
+}
+
+@media only screen and (max-width: 451px) {
+    .nido-logo img {
+        max-width: 370px;
+        margin-top: -20px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 889px) {
+    .nido-navigation-bar {
+        padding-right: 0px;
+    }
+
+    #menu-menu {
+        padding-left: 0px;
+    }
+}
+
+/* Barra de navegación en menos de 768 pixeles */
+@media only screen and (max-width: 768px) {
+    .nido-navigation-bar .menu-item-898,
+    .nido-navigation-bar .menu-item-903 {
+        width: 100%;
+    }
+
+    .nido-navigation-bar .menu-item-898 a,
+    .nido-navigation-bar .menu-item-903 a {
+        width: 100%;
+        line-height: 15px !important;
+    }
+
+    .nido-navigation-bar .menu-item-898 .nido-navi,
+    .nido-navigation-bar .menu-item-903 .nido-navi {
+        margin-bottom: 0;
+    }
+
+    .nido-navigation-bar .menu-item-898 img,
+    .nido-navigation-bar .menu-item-903 img {
+        float: left;
+    }
+
+    .nido-navigation-bar .menu-item-898 .nido-navp,
+    .nido-navigation-bar .menu-item-903 .nido-navp {
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .nido-navigation-bar .menu-item-898 .nido-navpi,
+    .nido-navigation-bar .menu-item-903 .nido-navpi {
+        margin-top: 6px;
+        margin-bottom: 0;
+    }
+
+    nav {
+        background-image: none;
+    }
+
+    .main-navigation,
+    .main-navigation ul {
+        background-color: #f9f7ed;
+    }
+
+    .current-menu-item {
+        background-color: #eae7c4;
+        background: #eae7c4;
+    }
+
+    #nido-tod {
+        top: 65px;
+    }
+
+    .page-id-1161 .nido-header-image {
+        margin: auto !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        width: 270px !important;
+    }
+
+    #nido-tod {
+        text-align: center;
+        position: inherit;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .nido-nav-logo {
+        width: 145px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #frm_field_655_container {
+        width: 100%;
+    }
+
+    #nido-tod {
+        right: 40px;
+    }
+}
+
+/*	Código CSS para página de Familia */
+
+#frm_field_650_container,
+#frm_field_258_container,
+#frm_field_262_container label {
+    display: none;
+}
+
+#frm_field_262_container {
+    margin-bottom: 0px;
+    height: 95px;
+    width: 365px;
+    background-color: white;
+    margin: auto;
+    background-image: url('assets/icons/nido-bottom-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 101%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+}
+
+.nido-foto-familia {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    object-fit: cover;
+    padding: 8px 7px;
+}
+
+#frm_field_262_container input,
+#frm_field_262_container img {
+    display: inline-block;
+}
+
+#frm_field_262_container input {
+    width: 170px;
+    margin-top: 32px;
+    border: none;
+    box-shadow: none;
+    color: black;
+    font-size: 30px !important;
+    padding: 0 0;
+}
+
+#frm_field_262_container .alignleft {
+    margin-right: 2px;
+}
+
+#nido-pencil {
+    float: right;
+    margin-top: 38px;
+    margin-right: 56px;
+    width: 20px;
+}
+
+#nido-cross {
+    float: right;
+    width: 20px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.nido-tarjeta-ninos {
+    width: 380px;
+    margin: auto;
+    background-color: #f9f7ed;
+    border-bottom: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+}
+
+.nido-tarjeta-ninos .frm_primary_label,
+#frm_field_319_container .frm_primary_label {
+    padding-left: 14px !important;
+    padding-top: 10px !important;
+    color: #787878 !important;
+    font-size: 15px !important;
+    font-family: 'Roboto' !important;
+}
+
+.nido-tarjeta-ninos hr {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 350px;
+    height: 1px;
+    background-color: #dedede;
+}
+
+.nido-tarjeta-ninos .nido-imagen-ejemplo-nino {
+    width: 55px;
+    display: inline-block;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+
+.nido-tarjeta-ninos .nido-seleccion-0,
+.nido-tarjeta-ninos .nido-seleccion-1,
+.nido-tarjeta-ninos .nido-seleccion-2,
+.nido-tarjeta-ninos .nido-seleccion-3,
+.nido-tarjeta-ninos .nido-seleccion-4,
+.nido-tarjeta-ninos .nido-seleccion-5,
+.nido-tarjeta-ninos .nido-seleccion-6,
+.nido-tarjeta-ninos .nido-seleccion-7,
+.nido-tarjeta-ninos .nido-seleccion-8,
+.nido-tarjeta-ninos .nido-seleccion-9 {
+    display: inline-block;
+    width: 31px;
+    float: right;
+    padding-top: 15px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.nido-tarjeta-ninos .nido-mismo-renglon-ninos .frm_checkbox {
+    display: inline-block;
+    padding-top: 17px;
+    padding-left: 7px;
+    height: 25px;
+}
+
+.nido-mismo-renglon-ninos {
+    background-color: white;
+    background-image: url('assets/icons/nido-bottom-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 101%;
+    height: 69px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nido-mismo-renglon-ninos .alignleft {
+    margin-right: 0px;
+}
+
+.nido-mismo-renglon-ninos input {
+    display: none;
+}
+
+.nido-mismo-renglon-ninos .frm_checkbox label {
+    font-size: 22px !important;
+    font-family: 'Roboto' !important;
+    color: black !important;
+}
+
+#frm_field_319_container .frm_primary_label {
+    padding-top: 18px !important;
+}
+
+.nido-mismo-renglon-2 img {
+    display: inline;
+    float: left;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding-top: 3px;
+    margin-right: 5px;
+}
+
+.nido-mismo-renglon-2 .frm_radio {
+    display: inline;
+}
+
+.nido-mismo-renglon-2 input {
+    display: none;
+}
+
+.nido-mismo-renglon-2 label {
+    font-size: 12px !important;
+    font-family: 'Roboto' !important;
+    color: black !important;
+}
+
+.nido-mismo-renglon-2 {
+    padding-left: 13px;
+    margin-top: 8px;
+}
+
+.sigPad {
+    margin: auto !important;
+    margin-top: -25px !important;
+}
+
+.nido-entrada-salida {
+    width: 165px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#nido-boton-entrada {
+    width: 70px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#nido-boton-salida {
+    width: 70px;
+    cursor: pointer;
+}
+
+#frm_field_659_container,
+.page-id-64 .frm_submit {
+    display: none;
+}
+
+.nido-tarjeta-familia .frm_error {
+    margin-left: 15px !important;
+}
+
+.page-id-64 .frm_error_style {
+    width: 365px !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+}
+
+.nido-tarjeta-familia-line {
+    border-bottom: dotted 4px #eeebd0;
+    margin-top: -65px;
+}
+
+.page-id-64 .frm_style_formidable-style.with_frm_style .form-field {
+    margin-bottom: 0px;
+}
+
+.nido-tarjeta-familia-frame {
+    height: 65px;
+    background-color: #eeebd0;
+    margin-top: 5px;
+}
+
+.page-id-64 .frm_message {
+    width: 365px !important;
+    margin: auto !important;
+}
+
+.page-id-64 .inside-article {
+    padding: 0 0;
+}
+
+.page-id-64 #menu-item-898 {
+    background: linear-gradient(#eae7c4, rgba(255,255,255,0));
+}
+
+.page-id-64 .menu-item-898 {
+    background-color: #eae7c4;
+}
+
+.page-id-64 .entry-content {
+    margin: 0;
+}
+
+#nido-imagen-entradas-y-salidas {
+    width: 220px;
+    margin-left: 20px;
+}
+
+.nido-estatus {
+    transform: translate(8px,-10px);
+    font-size: 16px !important;
+    display: block;
+    width: 200px;
+}
+
+.nido-imagen-nino {
+    height: 60px;
+    width: 55px;
+    background-size: cover;
+    float: left;
+    margin-left: 6px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .nido-foto-familia,
+    .nido-imagen-ejemplo-nino {
+        float: left;
+    }
+
+    .page-id-64 #nido-header-image {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #nido-imagen-entradas-y-salidas {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 381px) {
+    #frm_field_262_container,
+    .nido-tarjeta-ninos,
+    .nido-tarjeta-ninos hr,
+    .sigPad canvas {
+    	width: 100%;
+    }
+
+    .sigPad .sigWrapper {
+    	border: none;
+    }
+}
+
+@media only screen and (max-width: 364px) {
+    #nido-pencil {
+	    margin-right: auto;
+    }
+
+    #frm_field_262_container input {
+    	width: 160px;
+    	font-size: 20px !important;
+    }
+
+    .nido-mismo-renglon-ninos .frm_checkbox label {
+    	font-size: 15px !important;
+    }
+
+    .nido-estatus {
+        font-size: 13px !important;
+    }
+}
+
+/*  Diseño para Página "Mi Cuenta" */
+
+.page-id-873 #page {
+    max-width: 100%;
+}
+
+.page-id-873 .entry-content,
+.page-id-873 .site-main {
+    margin: 0;
+}
+
+img.nido-imagen-dashboard {
+    width: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.nido-dashboard-cuido {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 180px !important;
+}
+
+label.nido-lable-title {
+    font-size: 24px !important;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+img.nido-title {
+    height: 45px;
+    float: left;
+    display: inline-block;
+}
+
+.nido-title {
+    float: left;
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-id-873 div.nido-title {
+        float: none;
+        width: 159px;
+        margin: auto;
+    }
+
+    .page-id-873 .nido-dashboard-cuido {
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px !important;
+    }
+
+    nav#generate-slideout-menu {
+        width: 200px;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    .page-id-1159 .nido-header-image {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .page-id-1159 img#nido-mi-cuido-icon {
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 569px) {
+    .page-id-873 .nido-dashboard-cuido img {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 509px) {
+    .page-id-873 .nido-dashboard-cuido img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 324px) {
+    .page-id-873 .inside-article {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 459px) {
+    .page-id-1159 .inside-article {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 381px) {
+    .page-id-1159 #nido-information {
+        width: 100% !important;
+    }
+
+    .page-id-1159 div.nido-top-card {
+        width: 100% !important;
+    }
+
+    .page-id-1159 hr {
+        width: 100% !important;
+    }
+
+    .page-id-1159 .nido-dow {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+}
+
+/*
+ *  Código para el PSD 6. .page-id-1159
+ */
+
+.page-id-1159 img#nido-back-button,
+.page-id-553 img#nido-back-button,
+.page-id-54 img#nido-back-button,
+.page-id-1163 img#nido-back-button {
+    height: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.page-id-1159 img#nido-vertical-line,
+.page-id-553 img#nido-vertical-line,
+.page-id-54 img#nido-vertical-line,
+.page-id-1163 img#nido-vertical-line {
+    height: 34px;
+    vertical-align: middle;
+}
+
+.page-id-1159 img#nido-mi-cuido-icon,
+.page-id-553 img#nido-mi-cuido-icon,
+.page-id-54 img#nido-mi-cuido-icon,
+.page-id-1163 img#nido-mi-cuido-icon {
+    width: 132px;
+    vertical-align: middle;
+}
+
+.page-id-1159 p,
+.page-id-1159 .entry-content,
+.page-id-553 p,
+.page-id-553 .entry-content,
+.page-id-54 p,
+.page-id-54 .entry-content,
+.page-id-1163 p,
+.page-id-1163 .entry-content {
+    margin: 0;
+}
+
+div.nido-top-card {
+    background-color: white;
+    font-size: 30px;
+    width: 365px;
+    height: 95px;
+    margin: auto;
+    background-image: url('assets/icons/nido-bottom-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 101%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+}
+
+img#nido-icono-nido {
+    width: 75px;
+    height: 75px;
+    padding: 9px 7px;
+    float: left;
+}
+
+.page-id-1159 #nido-pencil {
+    float: none;
+    margin: 0;
+    width: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.page-id-1159 .nido-cuido-name {
+    float: left;
+    margin-top: 26px;
+}
+
+.page-id-1159 #nido-information {
+    width: 380px;
+    margin: auto;
+    background-color: #f9f7ed;
+    border-bottom: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+}
+
+.page-id-1159 .nido-field {
+    background-color: white;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    min-height: 31px;
+    color: #787878;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.page-id-1159 label.nido-field-label {
+    padding-right: 5px;
+}
+
+.page-id-1159 .nido-information-inner {
+    padding-top: 15px;
+}
+
+.page-id-1159 label.nido-sub-label {
+    font-size: 15px;
+    color: #787878;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.page-id-1159 hr {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 350px;
+    height: 1px;
+    background-color: #dedede;
+}
+
+.page-id-1159 .nido-hr-horario {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 1px;
+    background-color: #dedede;
+}
+
+.page-id-1159 label.nido-field-label-horario {
+    color: #787878;
+    font-size: 14.99px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.page-id-1159 .nido-field-horario {
+    display: inline;
+    font-weight: 400;
+    background-color: white;
+    margin-left: 14px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    height: 31px;
+    color: #787878;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.page-id-1159 .nido-dow {
+    background-color: white;
+    color: #787878;
+    font-size: 17.47px;
+    font-weight: 400;
+    text-align: center;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    margin-right: -1px;
+}
+.page-id-1159 .nido-dias {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.page-id-1159 .nido-empleados {
+    background-color: white;
+    background-image: url('assets/icons/nido-bottom-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 101%;
+    margin-left: 13px;
+    margin-right: 13px;
+    height: 67px;
+}
+
+.page-id-1159 div.nido-empleado-imagen {
+    height: 55px;
+    width: 55px;
+    background-size: cover;
+    float: left;
+    margin-left: 6px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.page-id-1159 label.nido-nombre-empleado {
+    color: #000000;
+    font-size: 22.99px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-left: 13px;
+    display: inline-block;
+}
+
+.page-id-1159 img#nido-add-user {
+    height: 66px;
+    margin-bottom: 8px;
+}
+
+.page-id-1159 .nido-add-user-div {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.page-id-1159 #menu-item-917,
+.page-id-1163 #menu-item-917 {
+    background: linear-gradient(#eae7c4, rgba(255,255,255,0));
+}
+
+.page-id-1159 .menu-item-917,
+.page-id-1163 .menu-item-917 {
+    background-color: #eae7c4;
+}
+
+.page-id-1159 img.nido-empleado-imagen {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    float: left;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+
+/*  Página de búsqueda de grupos familiares */
+.page-id-1161 .entry-content {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.page-id-1161 img#nido-back-button {
+    height: 30px;
+    vertical-align: middle;
+}
+
+.page-id-1161 img#nido-vertical-line {
+    height: 35px;
+    vertical-align: middle;
+}
+
+.page-id-1161 img#nido-grupos-icon {
+    height: 45px;
+    vertical-align: middle;
+}
+
+.page-id-1161 #frm_field_677_container {
+    display: none;
+}
+
+.page-id-1161 .nido-centered-image {
+    text-align: center;
+}
+
+.page-id-1161 .nido-centered-image img {
+    width: 140px;
+}
+
+.page-id-1161 div#frm_field_676_container {
+    width: 415px;
+    height: 55px;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.page-id-1161 input#field_jsx19 {
+    width: 357px;
+    float: left;
+    height: 55px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: white;
+}
+
+.page-id-1161 img#nido-lupa {
+    height: 43px;
+    display: inline;
+    background-color: white;
+    padding: 6px 5px;
+}
+
+.page-id-1161 #frm_form_27_container .frm_submit {
+    display: none;
+}
+
+.page-id-1161 fieldset {
+    padding: 0;
+}
+
+.nido-grupos-familiares-count {
+    max-width: 1000px;
+    background-color: white;
+    height: 40px;
+    margin: auto;
+    background-image: url('assets/icons/nido-bottom-line-wide.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 104%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+}
+
+.page-id-1161 label#nido-grupos-familiares-label {
+    color: #03d0b1;
+    font-size: 16.17px;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-top: 8px;
+    float: left;
+}
+
+.page-id-1161 label#nido-grupos-familiares-count {
+    float: right;
+    color: #ff6470;
+    font-size: 20.55px;
+    font-weight: 700;
+    padding-right: 25px;
+    padding-top: 5px;
+}
+
+.page-id-1161 .nido-family-list {
+    background-color: rgb(249, 247, 237);
+    border-bottom: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+}
+
+.page-id-1161 .nido-family-element {
+    height: 48px;
+    border-bottom: 2px solid rgb(225, 225, 222);
+}
+
+.page-id-1161 .nido-family-element:not(:last-child) {
+    border-bottom: 2px solid rgb(225, 225, 222);
+}
+
+.page-id-1161 .nido-family-name {
+    float: left;
+    padding-top: 10px;
+    padding-left: 25px;
+    color: #787878;
+    font-size: 17.99px;
+    font-weight: 400;
+}
+
+.page-id-1161 img#nido-huevo-pencil {
+    height: 40px;
+    float: right;
+    padding-top: 4px;
+    padding-right: 5px;
+}
+
+.page-id-1161 img#nido-huevo-cross {
+    height: 40px;
+    float: right;
+    padding-top: 4px;
+    padding-right: 30px;
+}
+
+.page-id-1161 .nido-famimly-element a {
+    display: none;
+}
+
+.page-id-1161 div#nido-add-user-button {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: -30px;
+}
+
+.page-id-1161 #nido-add-user-button img {
+    height: 60px;
+}
+
+.page-id-1161 #nido-add-user-button div {
+    color: #03d0b1;
+    font-size: 16.17px;
+    font-weight: 900;
+    background-color: white;
+    height: 30px;
+    padding-top: 7px;
+    margin-top: -8px;
+}
+
+.page-id-1161 .nido-grupos-familiares {
+    margin-bottom: 50px;
+}
+
+.page-id-1161 .nido-family-element img {
+    cursor: pointer;
+}
+
+.page-id-1161 .nido-family-element a {
+    display: none;
+}
+
+.page-id-1161 #menu-item-917 {
+    background: linear-gradient(#eae7c4, rgba(255,255,255,0));
+}
+
+.page-id-1161 .menu-item-917 {
+    background-color: #eae7c4;
+}
+
+.page-id-1161 span.frm-loading-img {
+    margin-top: 16px;
+    margin-left: 10px;
+    float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-id-1161 .nido-header-image {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        width: 270px !important;
+        margin: auto !important;
+    }
+}
+
+@media only screen and (max-width: 495px) {
+    .page-id-1161 .inside-article {
+        padding: 0;
+    }
+
+    .page-id-1161 div#frm_field_676_container {
+        width: 300px;
+    }
+
+    .page-id-1161 input#field_jsx19 {
+        width: 242px;
+    }
+
+    .page-id-1161 .nido-family-name {
+        padding-top: 14px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .page-id-1161 img#nido-huevo-cross {
+        padding-right: 10px;
+    }
+}
+
+/*  PSD 8. Página para editar grupos familiares */
+.page-id-551 .entry-content {
+    margin: 0;
+}
+
+.page-id-551 img#nido-back-button {
+    height: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.page-id-551 img#nido-vertical-line {
+    height: 34px;
+    vertical-align: middle;
+}
+
+.page-id-551 img#nido-grupos-icon {
+    height: 45px;
+    vertical-align: middle;
+}
+
+.page-id-551 .nido-header-image {
+    display: inline;
+    float: left;
+}
+
+.page-id-551 .nido-header-sub {
+    float: left;
+    padding-left: 9px;
+    padding-top: 5px;
+    color: white;
+}
+
+.page-id-551 .nido-top-square {
+    background-color: white;
+    font-size: 30px;
+    width: 365px;
+    height: 95px;
+    margin: auto;
+    background-image: url('assets/icons/nido-bottom-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 101%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    border-bottom: solid 1px #d2d1d2;
+    margin-bottom: 0px !important;
+}
+
+.page-id-551 input {
+    border-radius: 0 !important;
+    /*width: 200px !important;*/
+}
+
+.page-id-551 .nido-top-square input {
+    border-radius: 0 !important;
+    width: 200px !important;
+    margin-top: 30px !important;
+    padding-left: 5px !important;
+}
+
+.page-id-551 #nido-pencil {
+    float: none;
+    margin: 0;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.page-id-551 .nido-foto-familia {
+    margin: 0;
+}
+
+.page-id-551 .nido-guardianes-familia {
+    margin-top: 0px !important;
+    margin-bottom: -1px !important;
+    width: 380px;
+    margin: auto;
+    background-color: #f9f7ed;
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.page-id-551 .nido-guardianes-familia .frm_form_field {
+    background-color: white;
+    margin: 0px 15px;
+    padding: 5px 11px;
+    margin-bottom: 8px;
+    height: 32px;
+    display: flex;
+}
+
+.page-id-551 .frm_form_field label {
+    padding-bottom: 0px !important;
+    float: left !important;
+    padding-top: 5px !important;
+}
+
+.page-id-551 .nido-guardianes-familia label {
+    color: #787878 !important;
+    font-size: 14.99px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto' !important;
+    margin-right: 5px !important;
+}
+
+.page-id-551 .nido-guardianes-familia input {
+    color: #787878 !important;
+    font-size: 14.99px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto' !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    flex: 1;
+}
+
+.page-id-551 .nido-guardianes-familia .frm_form_field select {
+    border-radius: 0px !important;
+    color: #787878 !important;
+    font-size: 14.99px !important;
+    font-weight: 400;
+    font-family: 'Roboto' !important;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-checkbox input {
+    height: 22px;
+    float: right;
+    width: 55px !important;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-mapa {
+    height: 300px;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-direccion-mapa div {
+    display: flex;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-foto-guardian {
+    display: block;
+    height: 220px;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-foto-guardian label {
+    width: 100%;
+    text-align: center;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-foto-guardian div {
+    float: left;
+    max-width: 100%;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-add-guardian {
+    height: 70px;
+    cursor: pointer !important;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-add-guardian img {
+    height: 46px;
+    float: left;
+    padding-top: 9px;
+    padding-left: 15px;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-add-guardian label {
+    padding-top: 25px !important;
+    padding-left: 6px;
+    cursor: pointer !important;
+}
+
+.page-id-551 .nido-guardianes-familia .nido-header {
+    border: none !important;
+    font-family: 'Roboto' !important;
+    color: #787878 !important;
+    font-size: 14.99px !important;
+    font-weight: bold !important;
+    padding: 5px 15px!important;
+}
+
+.page-id-551 .frm_form_field .nido-last {
+    margin-bottom: 0px !important;
+}
+
+.page-id-551 .nido-agregar-telefono img {
+    height: 20px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.page-id-551 .nido-agregar-telefono label {
+    padding-left: 11px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.page-id-551 .nido-agregar-telefono {
+    padding-left: 10px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.page-id-551 .nido-header-kids.nido-guardianes-familia {
+    padding-top: 20px;
+    /*padding-bottom: 0px !important;*/
+}
+
+.page-id-551 .nido-header-kids h3.nido-header {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 23px;
+    float: left;
+}
+
+.page-id-551 .nido-header-kids img {
+    width: 70px;
+    float: right;
+    padding-right: 20px;
+}
+
+.page-id-551 hr.nido-hr {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 0px;
+}
+
+.page-id-551 input[type="radio"] {
+    display: none;
+}
+
+.page-id-551 input[type="radio"] + label {
+    display: inline-block !important;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    background: url('assets/icons/radio_sprite-e1491522818321.png') left top no-repeat;
+    cursor: pointer;
+}
+
+.page-id-551 input[type="radio"]:checked + label {
+    background: url('assets/icons/radio_sprite-e1491522818321.png') -57px top no-repeat;
+}
+
+.page-id-551 .horizontal_radio {
+    background-color: #f9f7ed !important;
+    display: block !important;
+    height: 85px !important;
+}
+
+/*.page-id-551 .horizontal_radio label.frm_primary_label {
+    width: 100% !important;
+}*/
+
+.page-id-551 label.nido-custom-label {
+    margin-top: 5px;
+}
+
+.page-id-551 .nido-condiciones-enfermedades {
+    display: block !important;
+    height: auto !important;
+}
+
+.page-id-551 .nido-condiciones-enfermedades label.frm_primary_label {
+    width: 100% !important;
+}
+
+.page-id-551 .frmgeo-address-locator-wrapper,
+.page-id-551 .frmgeo-address-locator-wrapper input {
+    width: 100% !important;
+}
+
+.page-id-551 .nido-field_6lvpo-1,
+.page-id-551 .nido-field_4iyxj-1 {
+    width: 20px;
+    height: 20px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+.page-id-551 #frm_field_684_container,
+.page-id-551 #frm_field_693_container {
+    margin-top: -16px;
+}
+
+.page-id-551 #frm_field_693_container {
+    margin-bottom: 0px;
+}
+
+.page-id-551 .nido-add-kid {
+    height: 67px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    cursor: pointer;
+}
+
+.page-id-551 .nido-add-kid img {
+    padding-left: 15px;
+    width: 40px;
+    float: left;
+}
+
+.page-id-551 .nido-add-kid label {
+    padding-left: 6px;
+    padding-top: 15px !important;
+    float: left;
+    cursor: pointer;
+}
+
+.nido-hide {
+    display: none !important;
+}
+
+.page-id-551 .nido-kid-box {
+    background-color: white;
+    background-image: url('assets/icons/nido-bottom-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 101%;
+    margin-left: 13px;
+    margin-right: 13px;
+    height: 67px;
+}
+
+.page-id-551 .nido-kid-box .nido-avatar {
+    width: 52px !important;
+    padding: 0 !important;
+    margin-left: 6px;
+    margin-top: 5px;
+    float: left;
+}
+
+.page-id-551 #nido-name {
+    padding-top: 15px !important;
+    padding-left: 15px;
+    color: #000000 !important;
+    font-size: 22.99px !important;
+    font-weight: 400 !important;
+}
+
+.page-id-551 .nido-cross {
+    float: right !important;
+    width: 20px !important;
+    padding-right: 8px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.page-id-551 label.nido-collapse {
+    width: 20px;
+    height: 20px;
+    padding: 0px !important;
+    margin-top: 21px;
+    margin-left: 10px;
+    background: url('assets/icons/nido-minus-plus-sprite-e1491707394416.png') left top no-repeat;
+    cursor: pointer;
+}
+
+.page-id-551 .nido-kid-row {
+    padding-bottom: 0px;
+    padding-top: 4px;
+}
+
+.page-id-551 .frm_error {
+    padding: 9px 0px !important;
+    padding-right: 3px !important;
+    display: inline;
+}
+
+/*.page-id-551 .frm_error {
+    display: none;
+}
+*/
+
+.page-id-551 .frm_dropzone {
+    height: 190px;
+    width: 100%;
+}
+
+.page-id-551 .frm_dropzone .dz-preview {
+    left: 50%;
+    margin-left: -60px;
+}
+
+.page-id-551 .horizontal_radio .frm_primary_label {
+    width: 100% !important;
+}
+
+.nido-submit-button {
+    height: 30px;
+    width: 120px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.nido-submit-button label {
+    cursor: pointer;
+}
+
+.nido-submit-button img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 30px;
+}
+
+.frm_submit {
+    display: none;
+}
+
+.nido-sombra-wrapper .nido-sombra {
+    max-width: 380px;
+    margin: auto;
+    margin-top: -7px;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-id-551 .nido-header-image {
+        display: inline;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .page-id-551 .nido-header-sub {
+        float: left;
+        padding-left: 9px;
+        padding-top: 25px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .page-id-551 .inside-article {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .page-id-551 .nido-top-square {
+        width: 100% !important;
+    }
+
+    .page-id-551 .nido-guardianes-familia {
+        width: 100% !important;
+    }
+
+    .page-id-551 .frm_small_text {
+        font-size: 12px;
+    }
+
+    .page-id-551 .nido-sombra-wrapper .nido-sombra {
+        margin-top: -9px;
+    }
+}
+
+/*  Estilo específicamente para campos */
+#frm_field_620_container div.frm_error {
+    display: inline-block;
+}
+
+/*  Diseño para página de Asistencia de Hoy */
+.page-id-894 img.nido-asistencia-hoy-header {
+    width: 218px;
+    margin-left: -65px;
+    margin-bottom: 10px;
+}
+
+.page-id-894 .nido-grupos-familiares-count img {
+    height: 31px;
+    padding-left: 5px;
+    padding-top: 5px;
+    float: left;
+}
+
+.page-id-894 label.nido-asistencia-hoy-count {
+    float: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    color: #03d0b1;
+    font-size: 20.55px;
+    font-weight: 700;
+}
+
+.page-id-894 .entry-content {
+    margin: 0;
+}
+
+.page-id-894 .nido-family-list {
+    background-color: rgb(249, 247, 237);
+    border-bottom: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+}
+
+.page-id-894 .nido-family-element {
+    height: 36px;
+    border-bottom: 2px solid rgb(225, 225, 222);
+}
+
+.page-id-894 img.nido-message-image {
+    height: 30px;
+    float: left;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.page-id-894 img.nido-asistencia-avatar {
+    height: 30px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.page-id-894 label.nido-asistencia-nombre {
+    color: #787878;
+    font-size: 15.99px;
+    font-weight: 400;
+    float: left;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.page-id-894 label.nido-asistencia-hora {
+    color: #787878;
+    font-size: 12.77px;
+    font-weight: 400;
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.page-id-894 .nido-reportes-salida {
+    margin-top: 20px;
+}
+
+.page-id-894 img.nido-sombra-bajo {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px !important;
+}
+
+.page-id-894 label.nido-asistencia-hoy-count-salida {
+    float: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    color: #fe6570;
+    font-size: 20.55px;
+    font-weight: 700;
+}
+
+.page-id-894 img.nido-imagen-salida {
+    height: 35px;
+}
+
+.nido-rectangulo-superior {
+    background-color: white;
+    font-size: 30px;
+    max-width: 365px;
+    height: 95px;
+    margin: auto;
+    background-image: url('assets/icons/nido-bottom-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 101%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    border-bottom: solid 1px #d2d1d2;
+    margin-bottom: 0px !important;
+}
+
+.nido-rectangulo-superior img {
+    height: 82px !important;
+    padding: 10px 7px;
+    float: left;
+}
+
+.nido-rectangulo-superior input {
+    border-radius: 0 !important;
+    width: 60% !important;
+    margin-top: 30px !important;
+    padding-left: 5px !important;
+}
+
+.nido-rectangulo-inferior {
+    margin-top: 0px !important;
+    margin-bottom: -1px !important;
+    max-width: 380px;
+    margin: auto;
+    background-color: #f9f7ed;
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nido-campo-regular {
+    background-color: white;
+    margin: 0px 15px;
+    padding: 5px 11px;
+    margin-bottom: 8px !important;
+    height: 32px;
+    display: flex;
+}
+
+.nido-campo-regular label,
+.nido-campo-select label {
+    color: #787878 !important;
+    font-size: 14.99px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto' !important;
+    margin-right: 8px !important;
+    padding-top: 5px !important;
+}
+
+.nido-campo-regular input {
+    color: #787878 !important;
+    font-size: 14.99px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto' !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    flex: 1;
+    border-radius: 0 !important;    
+}
+
+.nido-campo-select {
+    background-color: white;
+    margin: 0px 15px;
+    padding: 5px 11px;
+    margin-bottom: 8px !important;
+    height: 42px;
+    display: flex;
+}
+
+.nido-campo-select select {
+    color: #787878 !important;
+    font-size: 14.99px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto' !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    flex: 1;
+    border-radius: 0 !important; 
+    width: 160px !important;
+}
+
+.nido-campo-select-dual {
+    background: none;
+    display: inline-flex;
+    width: 160px;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.nido-map {
+    background-color: white;
+    margin: 0px 15px;
+    padding: 5px 11px;
+    margin-bottom: 8px !important;
+}
+
+.nido-dropdown-foto {
+    background-color: white;
+    margin: 0px 15px;
+    padding: 5px 11px;
+    margin-bottom: 8px !important;
+}
+
+.nido-dropdown-foto label {
+    text-align: center !important;
+    font-weight: 400 !important;
+}
+
+.nido-dropdown-foto .frm_dropzone {
+    max-width: 100% !important;
+}
+
+.nido-dropdown-foto .frm_dropzone .dz-preview {
+    left: 50%;
+    margin-left: -60px;
+}
+
+.nido-campo-multiline {
+    background-color: white;
+    margin: 0px 15px;
+    padding: 5px 11px;
+    margin-bottom: 8px !important;
+    height: auto;
+    display: block;
+}
+
+.nido-campo-multiline label {
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+
+.nido-with-tags {
+    height: 110px;
+    display: block;
+}
+
+.nido-with-tags label {
+    text-align: center !important;
+}
+
+.nido-encabezado h3 {
+    border: none !important;
+    font-family: 'Roboto' !important;
+    color: #787878 !important;
+    font-size: 14.99px !important;
+    font-weight: bold !important;
+    float: left;
+    padding-left: 15px !important;
+}
+
+.nido-encabezado img {
+    float: right;
+    width: 90px;
+    padding-right: 20px;
+}
+
+.nido-encabezado hr {
+    margin: auto !important;
+    width: 90%;
+    margin-bottom: -1px !important;
+    background-color: rgba(0,0,0,.1) !important;
+    border: 0;
+    height: 1px;
+}
+
+.nido-save-wrapper {
+    height: 50px;
+    margin-top: 15px;
+}
+
+.nido-save-wrapper .nido-submit-button {
+    width: 130px;
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.nido-save-wrapper img:not(.frm_ajax_loading) {
+    float: left;
+}
+
+.nido-submit-button label {
+    float: left;
+    padding-top: 6px;
+    font-size: 14px;
+}
+
+.page-id-54 .frm_submit {
+    display: none;
+}
+
+#frm_field_694_container label,
+#frm_field_222_container label,
+#frm_field_306_container label,
+#frm_field_332_container label,
+#frm_field_351_container label,
+#frm_field_370_container label,
+#frm_field_389_container label,
+#frm_field_408_container label {
+    float: none !important;
+}
+
+.nido-horarios {
+    margin-left: 23px;
+}
+
+.nido-horarios .nido-dia {
+    font-family: 'Roboto';
+    display: inline;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nido-checkbox input[type="checkbox"] + label {
+    display: inline-block !important;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: url('assets/icons/radio_sprite-e1491522818321.png') left top no-repeat;
+    background-size: auto 32px;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.nido-checkbox input[type="checkbox"]:not(:checked) + label {
+    background-position: left top;
+}
+
+.nido-checkbox input[type="checkbox"]:checked + label {
+    background-position: -47px top;
+}
+
+.nido-checkbox input {
+    display: none;
+}
+
+.frm_description {
+    font-family: 'Roboto' !important;
+}
+
+img.nido-pencil {
+    width: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+img.nido-cross {
+    width: 20px;
+    float: right;
+    padding-right: 7px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.frmgeo-address-locator-wrapper {
+    width: 100% !important;
+}
+
+.nido-conversacion {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.nido-avatar .frm_opt_container {
+    margin: auto;
+}
+
+.nido-avatar input[type="radio"] + label {
+    display: inline-block !important;
+    vertical-align: middle;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background-size: auto 50px;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    border: 1px solid transparent;
+    background-position: center;
+}
+
+.nido-avatar input[type="radio"] {
+    display: none;
+}
+
+.nido-avatar-1 {
+    background: url('assets/icons/nido-huevo-2.png') no-repeat;
+    background-size: auto 55px !important;
+}
+
+.nido-avatar-2 {
+    background: url('assets/icons/nido-huevo-1.png') no-repeat;
+    background-size: auto 53px !important;
+}
+
+.nido-avatar-3 {
+    background: url('assets/icons/nido-sample-image-camera.png') no-repeat;
+    background-size: auto 55px !important;
+}
+
+.nido-avatar-4 {
+    background: url('assets/icons/nido-guardian-ejemplo.png') no-repeat;
+    background-size: auto 55px !important;
+}
+
+.nido-avatar .frm_radio {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+    width: 50px;
+}
+
+.nido-avatar input[type="radio"]:checked + label {
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    background-color: #666;
+}
+
+.nido-campo-avatar {
+    height: 70px;
+}
+
+.nido-asistencia-tabs {
+    background-color: transparent !important;
+    border: none !important;
+    font-family: 'Roboto' !important;
+    font-size: 15.99px !important;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nido-asistencia-tabs li a {
+    background-color: white;
+}
+
+.nido-asistencia-tabs li.ui-tabs-active a {
+    background-color: grey;
+}
+
+.nido-asistencia-tabs ul {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+}
+
+li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active {
+    /*background-color: #777 !important;*/
+    border: none;
+    border-radius: 0;
+}
+
+.ui-tabs-tab.ui-state-default.ui-tab {
+    background: none;
+}
+
+.ui-tabs-tab.ui-state-hover {
+    background: none;
+    background-color: #eee !important;
+}
+
+.ui-tabs-tab.ui-state-active {
+    background: none;
+    background-color: #ddd !important;
+}
+
+.nido-asistencia-2 .nido-elements {
+    background-color: white;
+    text-align: center;
+    height: 95px;
+}
+
+.nido-asistencia-2 label.nido-nombre {
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: -30px;
+}
+
+.nido-asistencia-2 img.nido-flecha-entrada,
+.nido-asistencia-2 img.nido-flecha-salida {
+    height: 20px;
+}
+
+.nido-asistencia-2 label.nido-hora-entrada,
+.nido-asistencia-2 label.nido-hora-salida {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: #787878;
+}
+
+.nido-asistencia-2 hr {
+    margin: 5px auto !important;
+    background-color: #03cce0;
+    height: 0.08em;
+    max-width: 75%;
+}
+
+.nido-asistencia-2 img.nido-asistencia-avatar {
+    height: 80px;
+    padding-top: 9px;
+}
+
+.nido-asistencia-2 .nido-mismo-renglon {
+    margin-top: 7px;
+    display: inline-flex;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.nido-asistencia-row {
+    margin-bottom: -10px;
+    max-width: 550px;
+    margin: auto;
+}
+
+.nido-mensajes {
+    font-family: 'Roboto';
+}
+
+.nido-mensaje {
+    margin-left: 20px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 320px;
+    height: 60px;
+}
+
+.nido-mensajes .nido-mensaje img.nido-bubble {
+    height: 20px;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+.nido-mensajes .nido-mensaje img.avatar {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50px;
+    float: left;
+    margin-left: -18px;
+}
+
+.nido-mensajes .nido-mensaje hr {
+    margin: 0;
+    height: 2px;
+    background-color: #03cce0;
+}
+
+.nido-mensajes .nido-mensaje label.nido-hora-mensaje {
+    float: right;
+    color: #787878;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.nido-mensajes .nido-mensaje .nido-after-avatar {
+    float: left;
+    padding-left: 7px;
+    width: 195px;
+}
+
+.nido-mensajes .nido-mensaje label.nombre-chat {
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.nido-mensajes .nido-mensaje label.nido-preview {
+    font-size: 11px;
+    color: #787878;
+}
+
+.nido-mensajes a {
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.nido-mensajes ul {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.ui-widget-header {
+    background: none;
+}
+
+.nido-contenido-mensaje .nido-mensaje-individual.nido-mensaje-otro {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+}
+
+.nido-contenido-mensaje img.nido-avatar-individual {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: auto;
+}
+
+.nido-mensaje-individual.nido-mensaje-otro .nido-mensaje-texto {
+    margin-left: 10px;
+    margin-right: 100px;
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 15px;
+    line-height: 17px;
+    /*height: 17px;*/
+    margin-top: 2px;
+}
+
+.nido-mensaje-individual.nido-mensaje-mio {
+    margin: 12px;
+    /*margin-left: auto;*/
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    background-color: #03d0b1;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 15px;
+    line-height: 17px;
+    display: inline-block;
+}
+
+.page-id-900 .entry-content {
+    margin: 0;
+}
+
+.nido-mensajes-encabezado {
+    max-width: 1075px;
+    background-color: white;
+    height: 40px;
+    margin: auto;
+    background-image: url('assets/icons/nido-bottom-line-wide.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 104%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+}
+
+.nido-mensajes-encabezado label {
+    color: #03d0b1;
+    font-size: 16.17px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 8px;
+    float: left;
+}
+
+.nido-mensaje .nido-mensajes-no-leidos {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 2px;
+    z-index: 2;
+    font-size: 12px;
+    color: white;
+}
+
+img.nido-sombra-bajo {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px !important;
+}
+
+.page-id-900 .ui-tabs-vertical { width: 1020px; }
+.page-id-900 .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.page-id-900 .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.page-id-900 .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.page-id-900 .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.page-id-900 .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+#nido-mensajes.ui-widget.ui-widget-content {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background-color: #f7f7eb;
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+.page-id-900 .ui-tabs-vertical .ui-tabs-nav li {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    background-color: white;
+}
+.page-id-900 .ui-tabs-vertical .ui-tabs-nav {
+    padding: 0;
+    border: none;
+    width: 365px;
+}
+.page-id-900 .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    padding: 0;
+    background-color: #e5e5e5;
+}
+.page-id-900 .ui-tabs-vertical .ui-tabs-panel {
+    padding: 0;
+    /*width: 655px;*/
+    flex: 1;
+}
+.page-id-900 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 0;
+    cursor: pointer !important;
+    width: 100%;
+}
+
+.nido-contenido-wrapper {
+    height: 460px;
+    overflow-y: scroll;
+    /*border-left: 1px solid #d6d6cb;*/
+}
+
+.nido-mensaje-mio-wrapper {
+    text-align: right;
+}
+
+label.nido-nuevos-mensajes {
+    color: white;
+    margin-left: -35px;
+    margin-top: 22px;
+    position: absolute;
+}
+
+.nido-enviar-mensaje {
+    width: 655px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    z-index: 10;
+    position: relative;
+    flex: 1;
+}
+
+.nido-enviar-mensaje .nido-message-content {
+    width: 75%;
+    display: inline-block;
+}
+
+.nido-enviar-mensaje .nido-message-content input {
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 13px !important;
+}
+
+.nido-enviar-mensaje .nido-message-uploads {
+    height: 40px;
+    float: right;
+    display: inline-block;
+}
+
+.nido-enviar-mensaje .nido-message-uploads img {
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nido-same-message-left {
+    /*height: 30px;*/
+    margin-top: -20px;
+    padding-left: 42px !important;
+}
+
+.nido-same-message-right {
+    margin-top: -15px;
+}
+
+.nido-busqueda input {
+    height: 32px;
+    width: 308px;
+    margin: 4px 12px;
+    margin-right: 0px;
+    background-color: white;
+    border: none;
+    float: left;
+    font-size: 13px !important;
+}
+
+.nido-busqueda img {
+    height: 28px;
+    float: left;
+    background-color: white;
+    margin-top: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.nido-busqueda {
+    width: 365px;
+    float: left;
+    background-color: #f7f7eb;
+    height: 40px;
+}
+
+.nido-encabezado-conversacion {
+    background-color: white;
+    float: right;
+    height: 40px;
+    text-align: center;
+    flex: 1;
+}
+
+.nido-buscar-mensajes {
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.nido-encabezado-conversacion img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 6px;
+    float: left;
+}
+
+label.nido-titulo-conversacion {
+    margin-top: 8px;
+    margin-left: 7px;
+    float: left;
+}
+
+.nido-mensajes-encabezado img {
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.nido-para-fields {
+    float: left;
+}
+
+input#search {
+    margin-top: 4px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px !important;
+    width: 80px;
+}
+
+.nido-mensajes-encabezado .nido-loading {
+    height: 10px;
+    margin-top: 14px;
+    margin-left: 26px;
+}
+
+.nido-encabezado-conversacion-wrapper {
+    display: inline-block;
+}
+
+.nido-trash {
+    float: right;
+    margin-top: -27px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.page-id-900 .inside-article {
+    padding: 0 !important;
+}
+
+.nido-enviar-mensaje-wrapper {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: -40px;
+}
+
+.nido-enviar-mensaje-spacer {
+    height: 40px;
+    width: 365px;
+    float: left;
+}
+
+.ui-autocomplete-category {
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1.0;
+}
+
+.ui-autocomplete.ui-menu .ui-menu-item-wrapper {
+    padding-left: 20px;
+}
+
+.ui-autocomplete {
+    width: 200px;
+}
+
+@media only screen and (max-width: 450px) {
+    .nido-asistencia-2 .nido-elements {
+        height: 75px;
+    }
+
+    .nido-asistencia-2 img.nido-asistencia-avatar {
+        height: 60px;
+        padding-left: 5px;
+    }
+
+    .nido-asistencia-2 label.nido-nombre {
+        font-size: 20px !important;
+    }
+
+    .nido-asistencia-2 hr {
+        margin: 3px auto !important;
+    }
+
+    .nido-asistencia-2 .nido-mismo-renglon {
+        margin-top: 3px;
+    }
+
+    .nido-asistencia-row {
+        margin-bottom: -15px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .nido-asistencia-2 label.nido-nombre {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .nido-asistencia-2 label.nido-nombre {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .inside-article {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nido-header-image {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    label.nido-nuevos-mensajes {
+        color: white;
+        margin-left: -35px;
+        margin-top: -2px;
+        position: absolute;
+    }
+
+    /*.nido-mensaje-texto {
+        width: 200px;
+    }*/
+
+    .nido-contenido-mensaje .nido-mensaje-individual.nido-mensaje-otro {
+        width: 270px;
+        padding-left: 5px;
+    }
+}
+
+/*
+ *  Estilo de los mensajes para móviles
+ */
+
+.nido-mensajes-encabezado .fa.fa-arrow-left {
+    color: #03d0b1;
+    float: left;
+    padding-top: 10px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    #nido-mensajes.ui-widget.ui-widget-content {
+        width: 300px;
+    }
+
+    .nido-mensaje {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 250px;
+    }
+
+    .nido-mensajes .nido-mensaje .nido-after-avatar {
+        width: 180px;
+    }
+
+    .nido-mensajes .nido-mensaje label.nido-hora-mensaje {
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    .nido-encabezado-conversacion {
+        width: 300px;
+        flex: none;
+        margin: auto;
+        display: none;
+    }
+
+    .nido-mensajes-encabezado {
+        width: 300px;
+        border: none;
+    }
+
+    .nido-busqueda {
+        margin: auto;
+        width: 300px;
+    }
+
+    .nido-busqueda input {
+        width: 247px;
+    }
+
+    .nido-contenido-mensaje .nido-mensaje-individual.nido-mensaje-otro {
+        width: 270px;
+    }
+
+    .nido-mensaje-individual.nido-mensaje-otro .nido-mensaje-texto {
+        margin-right: 0px;
+        max-width: 200px;
+    }
+
+    .nido-same-message-left {
+        padding-left: 0 !important;
+    }
+
+    .nido-title {
+        display: none;
+    }
+
+    .nido-sombra-wrapper {
+        text-align: center;
+    }
+
+    img.nido-sombra-bajo {
+        width: 300px;
+    }
+
+    .nido-enviar-mensaje-spacer {
+        display: none;
+    }
+
+    .nido-enviar-mensaje {
+        width: 300px;
+        margin: auto;
+        flex: none;
+    }
+
+    .nido-message-uploads {
+        /*display: none !important;*/
+    }
+
+    .nido-contenido-wrapper {
+        border-left: none;
+        width: 300px; 
+    }
+
+    .page-id-900 .nido-sombra-wrapper,
+    .page-id-900 .site-footer {
+        display: none;
+    }
+
+    .page-id-900 .nido-enviar-mensaje-wrapper {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .nido-contenido-wrapper {
+        height: 480px;
+        overflow-y: scroll;
+        /*border-left: 1px solid #d6d6cb;*/
+    }
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input#nido_mensaje,
+  input#nido-buscar-familia {
+    font-size: 16px !important;
+  }
+}
+
+/*  Estilo de Alertas */
+.jconfirm.jconfirm-nido .jconfirm-bg{
+    background-color: #444;
+    opacity: 0.5;
+}
+.jconfirm.jconfirm-nido .jconfirm-box{
+    width: 266px;
+    font-family: 'Roboto';
+}
+.jconfirm.jconfirm-nido .jconfirm-box.loading{
+}
+.jconfirm.jconfirm-nido .jconfirm-box.loading:before{
+}
+.jconfirm.jconfirm-nido .jconfirm-box.loading:after{
+}
+.jconfirm.jconfirm-nido .jconfirm-box .jconfirm-closeIcon{
+}
+.jconfirm.jconfirm-nido .jconfirm-box .jconfirm-title-c {
+    color: #3a3a3a;
+}
+.jconfirm.jconfirm-nido .jconfirm-box .jconfirm-title-c .jconfirm-icon-c{
+    color: orange;
+    padding-right: 10px;
+}
+.jconfirm.jconfirm-nido .jconfirm-box .jconfirm-content-pane{
+}
+.jconfirm.jconfirm-nido .jconfirm-box .jconfirm-content{
+    color: #3a3a3a;
+}
+.jconfirm.jconfirm-nido .jconfirm-box .jconfirm-buttons{
+    text-align: right;
+}
+.jconfirm.jconfirm-nido .jconfirm-box .jconfirm-buttons button{
+}
+
+.btn-predeterminado {
+    background-color: #03d0b1;
+}
+
+/*
+ *  Estilo de gráficas
+ */
+
+.nido-grafica-wrapper {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    background-color: #f9f7ed;
+}
+
+.nido-reportes-header label.nido-reportes-label {
+    font-size: 24px !important;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nido-reportes-wrapper .nido-reportes-tabs {
+    color: white;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+}
+
+.nido-reportes-tabs .nido-reportes-grupal,
+.nido-reportes-tabs .nido-reportes-individual,
+.nido-reportes-tabs .nido-reportes-exportar {
+    display: inline-block;
+}
+
+.nido-reportes-wrapper {
+    max-width: 768px;
+    margin: auto;
+}
+
+.nido-reportes-exportar {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.nido-reportes-exportar label {
+    font-size: 14px !important;
+}
+
+.nido-reportes-grupal {
+    margin: 6px;
+    padding: 4px;
+    border-bottom: 8px solid orange;
+    margin-bottom: 0px !important;
+    cursor: pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.nido-reportes-grupal label,
+.nido-reportes-individual label {
+    cursor: pointer;
+}
+
+.nido-reportes-individual {
+    margin: 6px;
+    padding: 4px;
+    border-bottom: 8px solid transparent;
+    margin-bottom: 0px !important;
+    cursor: pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+span.nido-vertical-spacer {
+    border-left: 1px solid white;
+}
+
+.nido-reportes-calendario {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.nido-reportes-calendario input {
+    font-size: 16px !important;
+    width: 55px;
+    border: none;
+    height: 20px;
+    padding: 6px;
+}
+
+.nido-reportes-calendario input {
+    font-size: 16px !important;
+    width: 55px;
+}
+
+.page-id-1163 .nido-cuido-name {
+    float: left;
+    margin-top: 26px;
+}
+
+.nido-entradas-boton,
+.nido-salidas-boton,
+.nido-incidentes-boton {
+    max-width: 1000px;
+    background-color: white;
+    height: 40px;
+    margin: auto;
+    background-image: url('assets/icons/nido-bottom-line-wide.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 100%;
+    cursor: pointer;
+}
+
+.nido-entradas-boton img,
+.nido-salidas-boton img,
+.nido-incidentes-boton img {
+    height: 31px;
+    padding-left: 5px;
+    padding-top: 5px;
+    float: left;
+}
+
+.nido-entradas-boton label,
+.nido-salidas-boton label,
+.nido-incidentes-boton label {
+    font-size: 12px !important;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 7px;
+    cursor: pointer;
+    color: grey;
+}
+
+#nido-reportes-grupal .nido-top-card {
+    width: auto !important;
+    max-width: 500px;
+}
+
+.nido-salidas-boton img,
+.nido-incidentes-boton img{
+    height: 35px !important;
+}
+
+select#nido-reportes-meses {
+    border: none;
+    height: 32px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.page-id-1163 .entry-content {
+    margin-top: 0px;
+}
+
+.nido-mensaje-individual.nido-mensaje-mio a:hover,
+.nido-mensaje-individual.nido-mensaje-otro a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nido-mensaje-individual.nido-mensaje-mio a,
+.nido-mensaje-individual.nido-mensaje-otro a {
+    border-bottom: none;
+    color: blue;
+    text-decoration: none;
+}
+
+.nido-mensaje-individual.nido-mensaje-mio img,
+.nido-mensaje-individual.nido-mensaje-otro img:not(.nido-avatar-individual) {
+    border-radius: 8px;
+    height: 70px;
+}
+
+.nido-subir-archivos {
+    display: none;
+}
+
+.nido-message-uploads img.nido-loading {
+    height: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.nido-incidente-wrapper input.nido-incidente {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nido-color-incidente .nido-mensaje-individual.nido-mensaje-mio,
+.nido-same-message-left.nido-color-incidente .nido-mensaje-texto {
+    background-color: orange;
+    color: white;
+}
+
+.nido-incidente-wrapper label:not(:first-child) {
+    display: inline-block !important;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: url('assets/icons/radio_sprite-e1491522818321.png') left top no-repeat;
+    background-size: auto 32px;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: left;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.nido-incidente-wrapper .nido-checkbox-2:not(:checked) + label {
+    background-position: left top;
+    border-color: #cccccc;
+}
+
+.nido-incidente-wrapper .nido-checkbox-2:checked + label {
+    background-position: -47px top;
+}
+
+.nido-incidente-wrapper input[type=checkbox] {
+    display: none;
+}
+
+.nido-incidente-wrapper .nido-checkbox-wrapper {
+    height: 34px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nido-incidente-wrapper span.nido-nino-first-name {
+    float: left;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+.nido-validate {
+    color: red;
+    font-size: 12px;
+}
+
+.nido-incidente-wrapper .nido-checkbox-2:not(:checked) + label.nido-error {
+    border-color: red;
+}
+
+/*  Estilo para la página de reportes */
+.nido-reportes-toolbar {
+    max-width: 1000px;
+    background-color: white;
+    height: 50px;
+    margin: auto;
+    background-image: url(assets/icons/nido-bottom-line-wide.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 104%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    margin-top: 33px;
+}
+
+.nido-reportes-toolbar label.nido-first-label {
+    font-family: Roboto;
+    color: #03d0b1;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+    float: left;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+img.nido-csv, img.nido-pdf {
+    height: 36px;
+    padding-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.nido-reportes-left-menu, .nido-reportes-right-menu {
+    display: inline-block;
+}
+
+.nido-reportes-right-menu {
+    float: right;
+    height: 50px;
+    padding-left: 12px;
+}
+
+img.nido-sombra-individual {
+    filter: contrast(1);
+    height: 25px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+img.nido-sombre-grupal {
+    height: 25px;
+    vertical-align: middle;
+    filter: opacity(0.5);
+}
+
+.nido-seccion-individual,
+.nido-seccion-grupal {
+    display: inline-block;
+    line-height: 38px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.nido-reportes-seccion-active {
+    border-top: 6px orange solid;
+}
+
+.nido-reportes-seccion-active img {
+    filter: contrast(0);
+}
+
+.nido-reportes-seccion-active label {
+    color: #03d0b1;
+}
+
+.nido-seccion-individual label {
+    font-family: Roboto;
+    color: #c0c0c0;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.nido-seccion-grupal label {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.nido-black-vertical-line {
+    display: inline-block;
+    height: 35px;
+    border-left: 1px solid #787878;
+    vertical-align: middle;
+}
+
+.nido-seccion-calendario {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+img.nido-sombra-calendario {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.nido-seccion-calendario label {
+    color: #03d0b1;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.nido-gris-reportes {
+    color: #787878;
+}
+
+.nido-color-incidente .nido-mensaje-texto {
+    background-color: orange !important;
+    color: white;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_form_field.frm_html_container, .frm_style_formidable-style.with_frm_style .frm_form_field .frm_show_it {
+    font-family: 'Roboto';
+}
+
+.nido-reportes-main-div {
+    width: 100%;
+    background-color: #f9f7ed;
+    text-align: center;
+}
+
+.nido-cuido-info {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.nido-cuido-info img.nido-reportes-cuido-avatar {
+    display: inline-block;
+    vertical-align: middle;
+    height: 98px;
+}
+
+.nido-cuido-info label.nido-reportes-cuido-nombre {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.nido-reportes-numericos-col-4 {
+    text-align: center;
+    width: 220px;
+    display: inline-block;
+}
+
+.nido-reportes-numericos-col-4 img {
+    height: 80px;
+    cursor: pointer;
+}
+
+.nido-reportes-numericos label.nido-reportes-label {
+    font-size: 21px;
+    font-weight: 700;
+    display: grid;
+    margin-top: -4px;
+}
+
+.nido-reportes-numericos label.nido-reportes-number {
+    font-size: 90px;
+    font-weight: 700;
+    display: grid;
+    margin-top: -22px;
+}
+
+.nido-reportes-numericos-entradas label,
+.nido-record-entradas label {
+    color: #03d0b1;
+}
+
+.nido-reportes-numericos-salidas label,
+.nido-record-salidas label {
+    color: #ff6470;
+}
+
+.nido-reportes-numericos-tardanzas label,
+.nido-record-tardanzas label {
+    color: #fc8e3d;
+}
+
+.nido-reportes-numericos-incidentes label,
+.nido-record-incidentes label {
+    color: #ffbe3b;
+}
+
+hr.nido-reportes-separador {
+    margin-top: 0;
+    margin-bottom: 25px;
+    width: 95%;
+}
+
+.nido-reportes-record-diario img {
+    height: 47px;
+}
+
+label.nido-record-cantidad {
+    font-size: 53px;
+    font-weight: 700;
+}
+
+label.nido-record-accion {
+    font-size: 13px;
+    font-weight: 700;
+    display: grid;
+}
+
+label.nido-reportes-mes {
+    color: #03d0b1;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+label.nido-reporte-numero-dia {
+    color: #787878;
+    font-size: 55px;
+    font-weight: 400;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    border-right: 1px solid rgba(0,0,0,.1);
+    width: 123px;
+    text-align: right;
+    height: 91px;
+    margin-bottom: 0;
+}
+
+.nido-reportes-record-diario {
+    vertical-align: top;
+    padding-bottom: 6px;
+}
+
+.nido-reportes-record-diario div {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 65px;
+    text-align: center;
+}
+
+.nido-reportes-record-diario > div > div img {
+    display: grid;
+    margin: auto;
+}
+
+.nido-reportes-record-diario > div {
+    padding: 0 5px;
+    margin-top: 5px;
+    width: 200px;
+    text-align: left;
+    /*border-right: 1px solid rgba(0,0,0,.1);*/
+}
+
+.nido-record-entradas {
+    /*border-left: 1px solid rgba(0,0,0,.1);*/
+}
+
+.nido-reporte-dia {
+    min-height: 90px;
+    margin: 0 30px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.nido-reporte-dia:not(.nido-add-border) {
+    border-top: none;
+}
+
+.nido-reportes-diarios {
+    padding-bottom: 30px;
+}
+
+.nido-reportes-tab1 {
+    height: 30px;
+    background-color: #f9f7ed;
+}
+
+.nido-reporte-mes {
+    text-align: center;
+    padding: 0 30px;
+}
+
+input#nido-daterangepicker {
+    padding: 0 10px;
+    height: 32px;
+    font-size: 16px !important;
+    width: 217px;
+    line-height: 16px;
+}
+
+.ranges li.active {
+    background-color: #03d0b1 !important;
+    border: 1px solid #03d0b1 !important;
+    color: white !important;
+    border-radius: 0;
+}
+
+.ranges li {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #666 !important;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+    border-radius: 0 !important;
+    font-size: 15px !important;
+}
+
+.btn-success {
+    background-color: #43bcd1 !important;
+    border-color: #43bcd1 !important;
+}
+
+.range_inputs {
+    padding-top: 7px;
+    text-align: center;
+}
+
+.daterangepicker .input-mini.active {
+    border: 1px solid #ffa500 !important;
+}
+
+.daterangepicker .input-mini {
+    border-radius: 0 !important;
+    font-size: 16px !important;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #43bcd1 !important;
+}
+
+img.nido-loading-apple {
+    height: 20px;
+    filter: contrast(1);
+}
+
+.nido-reportes-numericos-col-4 .nido-loading-apple {
+    margin-bottom: 25px;
+}
+
+.nido-reportes-record-diario .nido-loading-apple {
+    float: right;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.nido-reporte-mes .nido-loading-apple {
+    float: right;
+}
+
+.inside-header {
+    display: none;
+}
+
+.nido-reporte-mes:not(:first-child) {
+    padding-top: 25px;
+}
+
+.page-id-1163 .grid-container {
+    padding: 0;
+}
+
+@media only screen and (max-width: 857px) {
+    .nido-reportes-toolbar {
+        height: 105px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    /*.nido-reportes-toolbar {
+        height: 160px;
+    }*/
+
+    .nido-reportes-right-menu {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    /*.nido-seccion-calendario label,
+    .nido-seccion-calendario {
+        padding-right: 0;
+    }*/
+
+    .nido-seccion-calendario {
+        padding-left: 3px;
+    }
+
+    /*.nido-black-vertical-line:last-child {
+        display: none;
+    }*/
+
+    /*.nido-661 {
+        display: none;
+    }*/
+}
+
+@media only screen and (max-width: 666px) {
+    .nido-reportes-toolbar {
+        height: 160px;
+    }
+
+    .nido-black-vertical-line:last-child {
+        display: none;
+    }
+
+    .nido-661 {
+        visibility: hidden;
+    }
+}
+
+/*@media only screen and (max-width: 660px) {
+    .nido-661 {
+        display: none;
+    }
+}*/
+
+.nido-seccion-individual input {
+    padding: 0 5px;
+    height: 32px;
+    font-size: 16px !important;
+    width: 100px;
+    line-height: 25px;
+}
+
+.nido-seccion-individual select {
+    height: 32px;
+    color: #787878;
+}
+
+@media only screen and (max-width: 1064px) {
+    .nido-reportes-record-diario > div {
+        width: 270px;
+    }
+
+    .nido-record-tardanzas {
+        /*border-left: 1px solid rgba(0,0,0,.1);*/
+    }
+
+    label.nido-reporte-numero-dia {
+        height: 176px;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+    .nido-reportes-record-diario > div {
+        width: 400px;
+        padding-left: 100px;
+    }
+
+    .nido-record-salidas,
+    .nido-record-incidentes {
+        /*border-left: 1px solid rgba(0,0,0,.1);*/
+    }
+
+    /*.nido-record-tardanzas,
+    .nido-record-incidentes {
+        margin-left: 123px;
+    }*/
+
+    label.nido-reporte-numero-dia {
+        height: 346px;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .nido-reportes-record-diario > div {
+        width: 210px;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    /*label.nido-reporte-numero-dia {
+        border-right: none;
+    }*/
+
+    .nido-reportes-record-diario > div {
+        border-right: none;
+        margin-top: 0;
+    }
+
+    .nido-reportes-record-diario {
+        padding-bottom: 0;
+    }
+
+    label.nido-reporte-numero-dia {
+        height: 320px;
+    }
+}
+
+.page-id-1163 {
+    min-width: 395px;
+}
+
+@media only screen and (max-width: 974px) {
+    .nido-reportes-numericos-col-4 {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 684px) {
+    .nido-reportes-numericos-col-4 {
+        width: 220px;
+    }
+}
+img.nido-avatar-option {
+    width: 75px;
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    vertical-align: middle;
+}
+img.nido-avatar-option.nido-active {
+    background-color: gray;
+    border: 2px solid #cacaca;
+}
+.nido-avatar {
+    cursor: pointer;
+    border-radius: 100px;
+    max-width: 75px;
+    max-height: 75px;
+    object-fit: cover;
+}
+.nido-password-page button,
+.nido-password-page .button-primary {
+    background-color: white;
+    color: #fabb3e;
+    font-weight: bold !important;
+    font-family: 'Roboto' !important;
+    border: 1px solid #dedcd4;
+}
+.nido-password-header {
+    background-color: white;
+    font-size: 30px;
+    max-width: 800px;
+    height: 95px;
+    margin: auto;
+    background-image: url(assets/icons/nido-bottom-line.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 110%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    text-align: center;
+}
+.nido-password-header img {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.nido-password-header label {
+    font-size: 32px;
+    font-family: 'Roboto';
+}
+.nido-password-page {
+    background-color: rgb(249, 247, 237);
+    border-bottom: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    max-width: 830px;
+    margin: auto;
+}
+.nido-password-page label {
+    color: #787878;
+}
+.nido-password-page table, .nido-password-page tr, .nido-password-page td {
+    border: none !important;
+}
+.nido-password-page .tml-submit-wrap {
+    text-align: center;
+}
+.nido-password-page button:hover {
+    background-color: #41bdd2;
+}
+.nido-password-page .button-primary:hover {
+    background-color: #eb6472;
+}
+.nido-family-view .nido-top img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+.nido-family-view .nido-top {
+    background-color: white;
+    font-size: 30px;
+    width: 365px;
+    height: 95px;
+    margin: auto;
+    background-image: url(assets/icons/nido-bottom-line.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 101%;
+    border-top: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    margin-top: 50px;
+}
+.nido-family-view .nido-details {
+    width: 380px;
+    margin: auto;
+    background-color: #f9f7ed;
+    border-bottom: solid 1px rgba(3, 206, 221, 0.7);
+    border-left: solid 1px rgba(3, 206, 221, 0.7);
+    border-right: solid 1px rgba(3, 206, 221, 0.7);
+    padding-top: 15px;
+}
+.nido-family-view .nido-view-field {
+    background-color: white;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    min-height: 31px;
+    color: #787878;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nido-redirect {
+    max-width: 400px;
+    background-color: #f9f7ed;
+    color: #787878;
+    margin: auto;
+}
+.nido-redirect div {
+    background-color: white;
+    padding: 15px;
+}
+.nido-redirect {
+    max-width: 400px;
+    background-color: #f9f7ed;
+    color: #787878;
+    margin: auto;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

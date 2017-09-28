@@ -1,0 +1,915 @@
+[24-Jul-2017 12:46:44 UTC] PHP Notice:  Undefined property: stdClass::$form_id in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/pro/classes/helpers/FrmProEntriesHelper.php on line 78
+[24-Jul-2017 12:51:45 UTC] PHP Notice:  Undefined property: stdClass::$form_id in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/pro/classes/helpers/FrmProEntriesHelper.php on line 78
+[24-Jul-2017 12:51:45 UTC] stdClass Object
+(
+    [id] => 1725
+    [item_key] => gbsvb
+    [name] => FuEPCVE2J8
+    [description] => a:2:{s:7:"browser";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";s:8:"referrer";s:46:"http://nidowp.miopr.com/registrar-una-familia/";}
+    [ip] => 190.106.53.161
+    [form_id] => 2
+    [post_id] => 2393
+    [user_id] => 184
+    [parent_item_id] => 0
+    [is_draft] => 0
+    [updated_by] => 184
+    [created_at] => 2017-07-24 12:50:03
+    [updated_at] => 2017-07-24 12:50:03
+    [form_name] => Registro Familia
+    [form_key] => eug7f
+    [metas] => Array
+        (
+            [318] => No
+            [804] => 184
+            [694] => <label for="field_m8c6h-0"></label><div class="nido-hide">V</div>
+            [697] => Array
+                (
+                    [status] => 1
+                    [street_number] => 1524
+                    [street_name] => Calle Faure
+                    [street] => 1524 Calle Faure
+                    [city] => San Juan
+                    [county] => El Cinco
+                    [region_code] => San Juan
+                    [region_name] => San Juan
+                    [postcode] => 00927
+                    [country_code] => PR
+                    [country_name] => Puerto Rico
+                    [formatted_address] => 1524 Calle Faure, San Juan, 00927, Puerto Rico
+                    [latitude] => 18.388440257660438
+                    [longitude] => -66.06775185156249
+                )
+
+            [686] => No
+            [704] => Si
+            [530] => No
+            [800] => Si
+            [222] => <label for="field_hu1ri-0"></label><div class="nido-hide">V</div>
+            [98] => Array
+                (
+                    [status] => 1
+                    [street_name] => Calle D
+                    [street] => Calle D
+                    [city] => Caguas
+                    [county] => Caguas
+                    [region_code] => Caguas
+                    [region_name] => Caguas
+                    [postcode] => 00725
+                    [country_code] => PR
+                    [country_name] => Puerto Rico
+                    [formatted_address] => Calle D, Caguas, 00725, Puerto Rico
+                    [latitude] => 18.2319890469321
+                    [longitude] => -66.04577919531249
+                )
+
+        )
+
+)
+
+[24-Jul-2017 13:03:23 UTC] PHP Notice:  Undefined property: stdClass::$form_id in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/pro/classes/helpers/FrmProEntriesHelper.php on line 78
+[24-Jul-2017 13:03:23 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in /home/miopr/public_html/nidowp/wp-content/themes/generatepress_child/functions.php on line 893
+[24-Jul-2017 13:05:57 UTC] PHP Strict Standards:  call_user_func() expects parameter 1 to be a valid callback, non-static method FRMGEO_Admin::geolocation_tab_settings() should not be called statically in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/classes/views/frm-forms/settings.php on line 258
+[24-Jul-2017 13:05:57 UTC] PHP Strict Standards:  call_user_func() expects parameter 1 to be a valid callback, non-static method FRMGEO_Admin::geolocation_tab_settings() should not be called statically in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/classes/views/frm-forms/settings.php on line 258
+[24-Jul-2017 13:07:30 UTC] PHP Strict Standards:  call_user_func() expects parameter 1 to be a valid callback, non-static method FRMGEO_Admin::geolocation_tab_settings() should not be called statically in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/classes/views/frm-forms/settings.php on line 258
+[24-Jul-2017 13:08:03 UTC] PHP Strict Standards:  call_user_func() expects parameter 1 to be a valid callback, non-static method FRMGEO_Admin::geolocation_tab_settings() should not be called statically in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/classes/views/frm-forms/settings.php on line 258
+[24-Jul-2017 13:09:43 UTC] PHP Notice:  Undefined property: stdClass::$form_id in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/pro/classes/helpers/FrmProEntriesHelper.php on line 78
+[24-Jul-2017 13:09:43 UTC] WP_Query Object
+(
+    [query] => Array
+        (
+            [post_title] => nido-nino
+            [meta_query] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FgGlvtDJaD
+                        )
+
+                )
+
+            [posts_per_page] => -1
+        )
+
+    [query_vars] => Array
+        (
+            [post_title] => nido-nino
+            [meta_query] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FgGlvtDJaD
+                        )
+
+                )
+
+            [posts_per_page] => -1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [title] => 
+            [fields] => 
+            [menu_order] => 
+            [embed] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [post_name__in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+            [ignore_sticky_posts] => 
+            [suppress_filters] => 
+            [cache_results] => 1
+            [update_post_term_cache] => 1
+            [lazy_load_term_meta] => 1
+            [update_post_meta_cache] => 1
+            [post_type] => 
+            [nopaging] => 1
+            [comments_per_page] => 50
+            [no_found_rows] => 
+            [order] => DESC
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => nido_posts
+            [primary_id_column] => ID
+        )
+
+    [meta_query] => WP_Meta_Query Object
+        (
+            [queries] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FgGlvtDJaD
+                        )
+
+                    [relation] => OR
+                )
+
+            [relation] => AND
+            [meta_table] => nido_postmeta
+            [meta_id_column] => post_id
+            [primary_table] => nido_posts
+            [primary_id_column] => ID
+            [table_aliases:protected] => Array
+                (
+                    [0] => nido_postmeta
+                )
+
+            [clauses:protected] => Array
+                (
+                    [nido_postmeta] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FgGlvtDJaD
+                            [compare] => =
+                            [alias] => nido_postmeta
+                            [cast] => CHAR
+                        )
+
+                )
+
+            [has_or_relation:protected] => 
+        )
+
+    [date_query] => 
+    [request] => SELECT   nido_posts.* FROM nido_posts  INNER JOIN nido_postmeta ON ( nido_posts.ID = nido_postmeta.post_id ) WHERE 1=1  AND ( 
+  ( nido_postmeta.meta_key = 'wpcf-id-de-familia-ninos' AND nido_postmeta.meta_value = 'FgGlvtDJaD' )
+) AND nido_posts.post_type = 'post' AND (nido_posts.post_status = 'publish' OR nido_posts.post_status = 'future' OR nido_posts.post_status = 'draft' OR nido_posts.post_status = 'pending' OR nido_posts.post_status = 'private') GROUP BY nido_posts.ID ORDER BY nido_posts.post_date DESC 
+    [posts] => Array
+        (
+        )
+
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_embed] => 
+    [is_paged] => 
+    [is_admin] => 1
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => e15f7f6b591b8100fb91db739a60e7ed
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+[24-Jul-2017 13:15:39 UTC] PHP Notice:  Undefined property: stdClass::$form_id in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/pro/classes/helpers/FrmProEntriesHelper.php on line 78
+[24-Jul-2017 13:15:39 UTC] FWjZQkHGOP
+[24-Jul-2017 13:15:39 UTC] WP_Query Object
+(
+    [query] => Array
+        (
+            [post_title] => nido-nino
+            [meta_query] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FWjZQkHGOP
+                        )
+
+                )
+
+        )
+
+    [query_vars] => Array
+        (
+            [post_title] => nido-nino
+            [meta_query] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FWjZQkHGOP
+                        )
+
+                )
+
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [title] => 
+            [fields] => 
+            [menu_order] => 
+            [embed] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [post_name__in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+            [ignore_sticky_posts] => 
+            [suppress_filters] => 
+            [cache_results] => 1
+            [update_post_term_cache] => 1
+            [lazy_load_term_meta] => 1
+            [update_post_meta_cache] => 1
+            [post_type] => 
+            [posts_per_page] => 10
+            [nopaging] => 
+            [comments_per_page] => 50
+            [no_found_rows] => 
+            [order] => DESC
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => nido_posts
+            [primary_id_column] => ID
+        )
+
+    [meta_query] => WP_Meta_Query Object
+        (
+            [queries] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FWjZQkHGOP
+                        )
+
+                    [relation] => OR
+                )
+
+            [relation] => AND
+            [meta_table] => nido_postmeta
+            [meta_id_column] => post_id
+            [primary_table] => nido_posts
+            [primary_id_column] => ID
+            [table_aliases:protected] => Array
+                (
+                    [0] => nido_postmeta
+                )
+
+            [clauses:protected] => Array
+                (
+                    [nido_postmeta] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FWjZQkHGOP
+                            [compare] => =
+                            [alias] => nido_postmeta
+                            [cast] => CHAR
+                        )
+
+                )
+
+            [has_or_relation:protected] => 
+        )
+
+    [date_query] => 
+    [request] => SELECT SQL_CALC_FOUND_ROWS  nido_posts.ID FROM nido_posts  INNER JOIN nido_postmeta ON ( nido_posts.ID = nido_postmeta.post_id ) WHERE 1=1  AND ( 
+  ( nido_postmeta.meta_key = 'wpcf-id-de-familia-ninos' AND nido_postmeta.meta_value = 'FWjZQkHGOP' )
+) AND nido_posts.post_type = 'post' AND (nido_posts.post_status = 'publish' OR nido_posts.post_status = 'future' OR nido_posts.post_status = 'draft' OR nido_posts.post_status = 'pending' OR nido_posts.post_status = 'private') GROUP BY nido_posts.ID ORDER BY nido_posts.post_date DESC LIMIT 0, 10
+    [posts] => Array
+        (
+        )
+
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_embed] => 
+    [is_paged] => 
+    [is_admin] => 1
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 758e9770832930b001dc8db3e4f7d87e
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+[24-Jul-2017 13:23:16 UTC] PHP Notice:  Undefined property: stdClass::$form_id in /home/miopr/public_html/nidowp/wp-content/plugins/formidable/pro/classes/helpers/FrmProEntriesHelper.php on line 78
+[24-Jul-2017 13:23:16 UTC] FSJ2pjR1mn
+[24-Jul-2017 13:23:16 UTC] WP_Query Object
+(
+    [query] => Array
+        (
+            [post_type] => nido-nino
+            [meta_query] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FSJ2pjR1mn
+                        )
+
+                )
+
+        )
+
+    [query_vars] => Array
+        (
+            [post_type] => nido-nino
+            [meta_query] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FSJ2pjR1mn
+                        )
+
+                )
+
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [title] => 
+            [fields] => 
+            [menu_order] => 
+            [embed] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [post_name__in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+            [ignore_sticky_posts] => 
+            [suppress_filters] => 
+            [cache_results] => 1
+            [update_post_term_cache] => 1
+            [lazy_load_term_meta] => 1
+            [update_post_meta_cache] => 1
+            [posts_per_page] => 10
+            [nopaging] => 
+            [comments_per_page] => 50
+            [no_found_rows] => 
+            [order] => DESC
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => nido_posts
+            [primary_id_column] => ID
+        )
+
+    [meta_query] => WP_Meta_Query Object
+        (
+            [queries] => Array
+                (
+                    [0] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FSJ2pjR1mn
+                        )
+
+                    [relation] => OR
+                )
+
+            [relation] => AND
+            [meta_table] => nido_postmeta
+            [meta_id_column] => post_id
+            [primary_table] => nido_posts
+            [primary_id_column] => ID
+            [table_aliases:protected] => Array
+                (
+                    [0] => nido_postmeta
+                )
+
+            [clauses:protected] => Array
+                (
+                    [nido_postmeta] => Array
+                        (
+                            [key] => wpcf-id-de-familia-ninos
+                            [value] => FSJ2pjR1mn
+                            [compare] => =
+                            [alias] => nido_postmeta
+                            [cast] => CHAR
+                        )
+
+                )
+
+            [has_or_relation:protected] => 
+        )
+
+    [date_query] => 
+    [request] => SELECT SQL_CALC_FOUND_ROWS  nido_posts.ID FROM nido_posts  INNER JOIN nido_postmeta ON ( nido_posts.ID = nido_postmeta.post_id ) WHERE 1=1  AND ( 
+  ( nido_postmeta.meta_key = 'wpcf-id-de-familia-ninos' AND nido_postmeta.meta_value = 'FSJ2pjR1mn' )
+) AND nido_posts.post_type = 'nido-nino' AND (nido_posts.post_status = 'publish' OR nido_posts.post_status = 'future' OR nido_posts.post_status = 'draft' OR nido_posts.post_status = 'pending' OR nido_posts.post_status = 'private') GROUP BY nido_posts.ID ORDER BY nido_posts.post_date DESC LIMIT 0, 10
+    [posts] => Array
+        (
+            [0] => WP_Post Object
+                (
+                    [ID] => 2401
+                    [post_author] => 184
+                    [post_date] => 2017-07-24 13:21:13
+                    [post_date_gmt] => 2017-07-24 13:21:13
+                    [post_content] => 
+                    [post_title] => Saul Jr. Galvez
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => closed
+                    [ping_status] => closed
+                    [post_password] => 
+                    [post_name] => saul-jr-galvez-2
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2017-07-24 13:21:13
+                    [post_modified_gmt] => 2017-07-24 13:21:13
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://nidowp.miopr.com/nido-nino/saul-jr-galvez-2/
+                    [menu_order] => 0
+                    [post_type] => nido-nino
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                )
+
+        )
+
+    [post_count] => 1
+    [current_post] => -1
+    [in_the_loop] => 
+    [post] => WP_Post Object
+        (
+            [ID] => 2401
+            [post_author] => 184
+            [post_date] => 2017-07-24 13:21:13
+            [post_date_gmt] => 2017-07-24 13:21:13
+            [post_content] => 
+            [post_title] => Saul Jr. Galvez
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => saul-jr-galvez-2
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2017-07-24 13:21:13
+            [post_modified_gmt] => 2017-07-24 13:21:13
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://nidowp.miopr.com/nido-nino/saul-jr-galvez-2/
+            [menu_order] => 0
+            [post_type] => nido-nino
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 1
+    [max_num_pages] => 1
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 1
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_embed] => 
+    [is_paged] => 
+    [is_admin] => 1
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 1
+    [query_vars_hash:WP_Query:private] => 121055ba23eef953421ea3401a6d5aeb
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
